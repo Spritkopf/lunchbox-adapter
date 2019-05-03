@@ -278,6 +278,28 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# bep_D_TVS_uni
+#
+DEF bep_D_TVS_uni D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "bep_D_TVS_uni" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
+P 4 0 1 8 100 50 100 -50 0 0 100 50 N
+X A1 1 -100 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # bep_LTC2054
 #
 DEF bep_LTC2054 U 0 20 Y Y 1 F N
