@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP D_TVS_copy
+$CMP D_TVS_uni
 D Bidirectional transient-voltage-suppression diode
 K diode TVS thyrector
 F ~
