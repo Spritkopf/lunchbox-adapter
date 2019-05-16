@@ -416,14 +416,6 @@ Wire Notes Line
 	6500 550  5050 550 
 Text Notes 5150 650  0    50   ~ 0
 12V for start button
-Wire Wire Line
-	9850 5400 9650 5400
-Wire Wire Line
-	10300 5400 10150 5400
-Wire Wire Line
-	10800 5400 10600 5400
-Wire Wire Line
-	10800 5300 10800 5400
 $Comp
 L power:+12V #PWR018
 U 1 1 5CE3D24B
@@ -436,38 +428,14 @@ F 3 "" H 10800 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
-U 1 1 5CE3CEDE
-P 10450 5400
-F 0 "R32" V 10243 5400 50  0000 C CNN
-F 1 "47 2W" V 10334 5400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P25.40mm_Horizontal" V 10380 5400 50  0001 C CNN
-F 3 "~" H 10450 5400 50  0001 C CNN
-	1    10450 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R30
-U 1 1 5CE3CABA
-P 10000 5400
-F 0 "R30" V 9793 5400 50  0000 C CNN
-F 1 "47 2W" V 9884 5400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P25.40mm_Horizontal" V 9930 5400 50  0001 C CNN
-F 3 "~" H 10000 5400 50  0001 C CNN
-	1    10000 5400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8450 5400 9350 5400
-$Comp
 L Device:D D16
 U 1 1 5CE36DE4
-P 9500 5400
-F 0 "D16" H 9500 5500 50  0000 C CNN
-F 1 "D" H 9500 5300 50  0001 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 5400 50  0001 C CNN
-F 3 "~" H 9500 5400 50  0001 C CNN
-	1    9500 5400
+P 9400 5300
+F 0 "D16" H 9400 5400 50  0000 C CNN
+F 1 "D" H 9400 5200 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9400 5300 50  0001 C CNN
+F 3 "~" H 9400 5300 50  0001 C CNN
+	1    9400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -503,10 +471,10 @@ F 3 "https://cdn-reichelt.de/documents/datenblatt/A240/MOS4028_SMD4028%23STM.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR04
+L power:+12V #PWR03
 U 1 1 5CE9E59E
 P 2000 3700
-F 0 "#PWR04" H 2000 3550 50  0001 C CNN
+F 0 "#PWR03" H 2000 3550 50  0001 C CNN
 F 1 "+12V" H 2015 3873 50  0000 C CNN
 F 2 "" H 2000 3700 50  0001 C CNN
 F 3 "" H 2000 3700 50  0001 C CNN
@@ -550,10 +518,10 @@ F 3 "" H 3000 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR04
 U 1 1 5CEAF1E6
 P 2000 5650
-F 0 "#PWR03" H 2000 5400 50  0001 C CNN
+F 0 "#PWR04" H 2000 5400 50  0001 C CNN
 F 1 "GND" H 2005 5477 50  0000 C CNN
 F 2 "" H 2000 5650 50  0001 C CNN
 F 3 "" H 2000 5650 50  0001 C CNN
@@ -822,10 +790,10 @@ F 3 "" H 10300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R31
+L Device:R R32
 U 1 1 5CCDDAA8
 P 10300 3350
-F 0 "R31" H 10230 3304 50  0000 R CNN
+F 0 "R32" H 10230 3304 50  0000 R CNN
 F 1 "10k" H 10230 3395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10230 3350 50  0001 C CNN
 F 3 "~" H 10300 3350 50  0001 C CNN
@@ -1513,29 +1481,25 @@ $EndComp
 $Comp
 L Device:R R18
 U 1 1 5DBEDF94
-P 7050 1500
-F 0 "R18" H 6980 1454 50  0000 R CNN
-F 1 "10k" H 6980 1545 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 1500 50  0001 C CNN
-F 3 "~" H 7050 1500 50  0001 C CNN
-	1    7050 1500
+P 7050 1550
+F 0 "R18" H 6980 1504 50  0000 R CNN
+F 1 "10k" H 6980 1595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 1550 50  0001 C CNN
+F 3 "~" H 7050 1550 50  0001 C CNN
+	1    7050 1550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7050 1650 7050 1750
 $Comp
 L Device:C C4
 U 1 1 5DBFF873
 P 7050 1200
 F 0 "C4" H 6850 1200 50  0000 L CNN
 F 1 "100n" H 7200 1200 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 7088 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7088 1050 50  0001 C CNN
 F 3 "~" H 7050 1200 50  0001 C CNN
 	1    7050 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 900  7050 1050
 Text Notes 6300 3650 0    50   ~ 0
 Gear1
 Text Notes 6300 3750 0    50   ~ 0
@@ -1674,28 +1638,6 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1430 4050 50  0
 F 3 "~" H 1500 4050 50  0001 C CNN
 	1    1500 4050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x12 J1
-U 1 1 5CE63150
-P 2100 1500
-F 0 "J1" H 2018 2125 50  0000 C CNN
-F 1 "Conn_01x12" H 2018 2126 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2100 1500 50  0001 C CNN
-F 3 "~" H 2100 1500 50  0001 C CNN
-	1    2100 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x12 J2
-U 1 1 5CEA9356
-P 2100 2700
-F 0 "J2" H 2100 2000 50  0000 C CNN
-F 1 "Conn_01x12" H 2018 3326 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2100 2700 50  0001 C CNN
-F 3 "~" H 2100 2700 50  0001 C CNN
-	1    2100 2700
-	-1   0    0    -1  
 $EndComp
 Text GLabel 10800 3000 2    50   Input ~ 0
 VCC_Sensor
@@ -1904,7 +1846,7 @@ F 3 "~" H 4050 1700 50  0001 C CNN
 	1    4050 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 5400 0    50   Input ~ 0
+Text GLabel 8450 5300 0    50   Input ~ 0
 CHARGE_LAMP
 Text GLabel 10250 3550 0    50   Input ~ 0
 SPD_12V
@@ -2100,4 +2042,65 @@ Wire Wire Line
 	3100 950  3850 950 
 Wire Wire Line
 	2000 3700 2450 3700
+Wire Wire Line
+	8450 5300 9250 5300
+Wire Wire Line
+	9550 5300 9550 5200
+Wire Wire Line
+	9550 5200 9800 5200
+Wire Wire Line
+	10100 5200 10250 5200
+Wire Wire Line
+	10250 5200 10250 5300
+Wire Wire Line
+	10250 5300 10800 5300
+Wire Wire Line
+	10250 5300 10250 5400
+Wire Wire Line
+	10250 5400 10100 5400
+Connection ~ 10250 5300
+Wire Wire Line
+	9800 5400 9550 5400
+Wire Wire Line
+	9550 5400 9550 5300
+Connection ~ 9550 5300
+$Comp
+L Device:R R30
+U 1 1 5D19D05C
+P 9950 5200
+F 0 "R30" V 9743 5200 50  0000 C CNN
+F 1 "100 1.6W" V 9900 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9880 5200 50  0001 C CNN
+F 3 "~" H 9950 5200 50  0001 C CNN
+	1    9950 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5D1A0765
+P 9950 5400
+F 0 "R31" V 10050 5400 50  0000 C CNN
+F 1 "100 1.6W" V 10000 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9880 5400 50  0001 C CNN
+F 3 "~" H 9950 5400 50  0001 C CNN
+	1    9950 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J1
+U 1 1 5CDD4F18
+P 2100 2100
+F 0 "J1" H 2018 3417 50  0000 C CNN
+F 1 "Conn_01x24" H 2018 3326 50  0000 C CNN
+F 2 "bep:DIP-24_866" H 2100 2100 50  0001 C CNN
+F 3 "~" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1700 7050 1750
+Wire Wire Line
+	7050 1350 7050 1400
+Wire Wire Line
+	7050 1050 7050 900 
 $EndSCHEMATC
