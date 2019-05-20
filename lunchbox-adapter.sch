@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:lunchbox-adapter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2069,7 +2070,7 @@ U 1 1 5D19D05C
 P 9950 5200
 F 0 "R30" V 9850 5150 50  0000 C CNN
 F 1 "100 1.6W" V 9850 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9880 5200 50  0001 C CNN
+F 2 "bep:5020_resistor_thermal_pads" V 9880 5200 50  0001 C CNN
 F 3 "~" H 9950 5200 50  0001 C CNN
 	1    9950 5200
 	0    1    1    0   
@@ -2080,7 +2081,7 @@ U 1 1 5D1A0765
 P 9950 5400
 F 0 "R31" V 10050 5350 50  0000 C CNN
 F 1 "100 1.6W" V 10050 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9880 5400 50  0001 C CNN
+F 2 "bep:5020_resistor_thermal_pads" V 9880 5400 50  0001 C CNN
 F 3 "~" H 9950 5400 50  0001 C CNN
 	1    9950 5400
 	0    1    1    0   
