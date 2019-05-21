@@ -13,6 +13,7 @@ This project consists of the KiCAD design files for the schematic and PCB
 * Plugs into the stock connector for the K100 instrument unit
 * Convert signal of the original speed sensors to a square wave signal understood by most 3rd party speedos
 * Conditioning of primary ignition coil RPM signal and conversion to square wave signal understood by most 3rd party speedos
+* Provide excitation current for alternator
 * Combine several of the information/warning lights to a common warning light output
 
 ## Speed signal voltage
